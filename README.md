@@ -15,11 +15,12 @@ that the final tenth round will be without mix columns layer. Then, the encrypte
 text is produced.
 
 Our control signals:
- init: 
+- init: 
 An output signal going to the Datapath to store the inputs in the registers.
 - inc_count:
 An output signal that increments the counter.
 - dec_count:
+An output signal that decrements the counter.
 - isRound0:
 An output signal that indicates that we are in the first round.
 - isRound9:
