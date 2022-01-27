@@ -14,7 +14,7 @@ ending with add round key layer. This procedure will be executed 9 times except
 that the final tenth round will be without mix columns layer. Then, the encrypted 
 text is produced.
 
-Our control signals:
+Description of control signals:
 - init: 
 An output signal going to the Datapath to store the inputs in the registers.
 - inc_count:
